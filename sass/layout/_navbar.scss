@@ -8,13 +8,16 @@
     @include px(16px);
   }
 
+
   .navbar-brand {
+  
     .sm-dot {
       @include box(6px);
       @include bg-color($clr-primary);
       @include border-r-circle;
       margin-left: 4px;
     }
+    
   }
   .navbar-show-btn {
     @include font-s(30px);
@@ -25,10 +28,12 @@
     }
   }
 
-  img {
-    min-width: 340px !important;
-    width: 200px !important;
-  }
+
+}
+
+.logo{
+  min-width: 50px !important;
+  width: 100px ;
 }
 
 .pg-navbar-collapse {
