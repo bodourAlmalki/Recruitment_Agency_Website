@@ -1,4 +1,8 @@
 .pg-navbar {
+  .logo{
+    min-width: 50px !important;
+    width: 100px ;
+  } 
   @include px(12px);
   height: 72px;
   @include bg-color($clr-white);
@@ -6,6 +10,7 @@
 
   @include breakpoint-up(sm) {
     @include px(16px);
+    
   }
 
 
